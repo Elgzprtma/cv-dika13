@@ -6,7 +6,7 @@ $('.page-scroll').on('click', function(e) {
    
     $('html , body').animate({
      scrollTop: elemenTujuan.offset().top 
-    }, 900, 'swing' );
+    }, 1000, 'swing' );
    
     e.preventDefault();
    });
